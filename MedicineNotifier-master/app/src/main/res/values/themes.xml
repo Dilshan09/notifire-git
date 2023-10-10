@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MedicineNotifier" parent="Theme.Material3.DayNight">
+        <item name="android:statusBarColor">@color/light_blue_primary</item>
+        <item name="colorPrimary">@color/light_blue_primary</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorPrimaryContainer">@color/light_blue_primary_l</item>
+        <item name="colorSurfaceVariant">@color/white</item>
+    </style>
+
+    <style name="Widget.MedicineNotifier.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MedicineNotifier.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.MedicineNotifier.BottomNavigationView" parent="">
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/light_blue_primary</item>
+        <item name="colorSecondaryContainer">@color/light_blue_primary_l</item>
+    </style>
+</resources>
